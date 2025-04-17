@@ -88,7 +88,7 @@ function playDrawPoker() {
       // Enable the Deal and Bet options when the player chooses to draw new cards
       dealButton.disabled = false;        // Turn on the Deal button
       betSelection.disabled = false;      // Turn on the Bet Selection list
-      drawButton.disabled = true;         // Turn off the Draw button
+      drawButton.disabled = true;         // Turn off the Draw button(FIX THIS)
       standButton.disabled = true;        // Turn off the Stand Button
       
       // Replace cards marked to be discarded
@@ -112,7 +112,7 @@ function playDrawPoker() {
       // Enable the Deal and Bet options when the player chooses to stand with their hand 
       dealButton.disabled = false;        // Turn on the Deal button
       betSelection.disabled = false;      // Turn on the Bet Selection list
-      drawButton.disabled = true;         // Turn off the Draw button
+      drawButton.disabled = true;         // Turn off the Draw button(FIX THIS)
       standButton.disabled = true;        // Turn off the Stand Button  
 
       // Evaluate the hand drawn by user

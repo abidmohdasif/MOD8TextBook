@@ -144,7 +144,7 @@ function handType(pokerHand) {
    function hasStraightFlush() {
       return hasFlush() && hasStraight();
    };
-
+   
    /* Function to test for the presence of a royal flush 
       which consists of 10-J-Q-K-A of the same suit */
    function hasRoyalFlush() {
